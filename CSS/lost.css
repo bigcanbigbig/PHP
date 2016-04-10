@@ -1,0 +1,492 @@
+body{
+	margin:0;
+    padding:0;
+    background: #000 url(PIC/back2.jpg) center center fixed no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+/*.bg{
+	background-image: url('PIC/back2.jpg');
+	background-position: center;
+	background-repeat:no-repeat;
+}*/
+.wrapper{
+	width: 80%;
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1;
+}
+.header{
+	height: 11.5%;
+	background-color: #008080;
+	color: white;
+	text-align:center;
+	line-height: 75px;
+	margin-bottom: 0.75%;
+	font-family: 'Microsoft YaHei';
+}
+.headword_sup{
+	font-size: 28px;
+}
+.header2nd{
+	height: 8%;
+	background-color: #3CB371;
+	color: white;
+	text-align:center;
+	margin-top: 1.5%;
+	margin-bottom: 10px;
+	line-height: 50px;
+	font-family: 'Microsoft YaHei';
+}
+.header2nd_found{
+	height: 8%;
+	margin-top: 2.5%;
+	margin-bottom: 10px;
+}
+.button_add{
+	height: 100%;
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_add_s{
+	height: 100%;
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	background-color: #01814A;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.button_notyet{
+	height: 100%;
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_notyet_s{
+	height: 100%;
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	background-color: #01814A;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.button_done{
+	height: 100%;
+	width: 32%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_done_s{
+	height: 100%;
+	width: 32%;
+	float: left;
+	background-color: #01814A;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.button_add:hover{
+	height: 100%;
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity:1	;
+}
+.button_notyet:hover{
+	height: 100%;
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity:1;
+}
+.button_done:hover{
+	height: 100%;
+	width: 32%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1
+}
+.button_surf{
+	height: 100%;
+	width: 49%;
+	margin-right: 0.5%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_search{
+	height: 100%;
+	width: 49%;
+	margin-left: 0.5%;
+	float: right;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_surf:hover{
+	height: 100%;
+	width: 49%;
+	margin-right: 0.5%;
+	float: left;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.button_search:hover{
+	height: 100%;
+	width: 49%;
+	margin-left: 0.5%;
+	float: right;
+	background-color: #3CB371;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.content_button{
+	height: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.button_sup{
+	height: 200px;
+	width: 390px;
+	margin-right: 10px;
+	/*margin-top: 10px;*/
+	float: left;
+	background-color: #55AA00;
+	text-align:center;
+	line-height: 80px;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_pick{
+	height: 100%;
+	width: 48%;
+	margin-right: 1%;
+	/*margin-top: 10px;*/
+	float: left;
+	background-color: #55AA00;
+	text-align:center;
+	line-height: 80px;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_pick:hover{
+	height: 100%;
+	width: 48%;
+	margin-right: 1%;
+	/*margin-top: 10px;*/
+	float: left;
+	background-color: #55AA00;
+	text-align:center;
+	line-height: 80px;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.button_get{
+	height: 100%;
+	width: 48%;
+	margin-left: 1%;
+	/*margin-top: 10px;*/
+	float: right;
+	background-color: #88AA00;
+	text-align:center;
+	line-height: 80px;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_get:hover{
+	height: 100%;
+	width: 48%;
+	margin-left: 1%;
+	/*margin-top: 10px;*/
+	float: right;
+	background-color: #88AA00;
+	text-align:center;
+	line-height: 80px;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.button_word{
+	display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.button_connect{
+	text-decoration:none;
+	color: white;
+}
+.supervisor{
+	height: 8%;
+	background-color: #AE57A4;
+	opacity: 0.7;
+	line-height: 50px;
+	text-align: center;
+	font-family: 'Microsoft YaHei';
+}
+.supervisor:hover{
+	height: 8%;
+	background-color: #AE57A4;
+	opacity: 1;
+	line-height: 50px;
+	text-align: center;
+	font-family: 'Microsoft YaHei';
+}
+.content{
+	background-color: #55AA00;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity: 1;
+	text-align: left;
+	font-size: 20px;
+	line-height: 2;
+	color: white;
+	font-family: 'Microsoft YaHei';
+}
+.content_take{
+  	width: 82%;
+  	height: 100%;
+  	margin-left: 0.5%;
+  	float: right;
+  	background-color: #55AA00;
+  	overflow:auto;
+}
+.take_information{
+	height: 330px;
+	width: 300px;
+	float: left;
+	margin-right: 5.5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 18px;
+	line-height: 2;
+	color: white;
+	font-family: 'Microsoft YaHei';
+}
+.take_picture{
+	height: 330px;
+	width: 300px;
+	float: left;
+	margin-left: 5.5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 18px;
+	color: white;
+	font-family: 'Microsoft YaHei';
+}
+.take_pic{
+	max-width: 290px; 
+	max-height: 290px;
+}
+.content_found{
+  	height: 56%;
+  /*background-color: #019858;*/
+}
+.sidebar{
+	width: 14.5%;
+	height: 100%;
+	margin-right: 0.5%;
+	line-height: 2;
+	float: left;
+}
+.sidebar a{
+	text-decoration:none;
+}
+.menu{
+	width: 100%;
+	height: 82%;
+	margin-bottom: 5%;
+	padding-left: 10%;
+	padding-top: 10%;
+	line-height: 2;
+	font-size: 50%;
+	background-color: #55AA00;
+	overflow: auto;
+}
+ul, li{
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+}
+.menu ul li{
+  	list-style-type:none;
+  	text-align: left;
+  	font-family: 'Microsoft YaHei';
+}
+.menu a{
+  	color: white;
+  	text-decoration:none;
+}
+.landing{
+	width: 110%;
+	height: 13%;
+	background-color: #55AA00;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 95%;
+	opacity: 0.7;
+}
+.landing:hover{
+	width: 110%;
+	height: 13%;
+	background-color: #55AA00;
+	color: white;
+	font-family: 'Microsoft YaHei';
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 95%;
+	opacity: 1;
+}
+.main{
+  	width: 80%;
+  	height: 100%;
+  	margin-left: 0.5%;
+  	float: right;
+  	background-color: #55AA00;
+  	padding-left: 2%;
+  	text-align: left;
+  	font-size: 20px;
+  	line-height: 2;
+  	color: white;
+  	font-family: 'Microsoft YaHei';
+  	overflow:auto;
+}
+.content_found table{
+	border: 0px;
+	/*padding:7px;*/
+}
+.content_found th{
+	background-color: #FFE66F;
+	text-align: center;
+}
+
+.content_found tr{
+	background-color: #FFF0AC;
+	padding: 5px;
+}
+.table_2{
+	width: 200px;
+}
+.table_picture{
+	max-width: 200px;
+}
+.button_back_pick{
+	background-color: #008888;
+	height: 50px;
+	color: white;
+	text-align:center;
+	margin-bottom: 10px;
+	line-height: 50px;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_back_pick:hover{
+	background-color: #008888;
+	height: 50px;
+	color: white;
+	text-align:center;
+	margin-bottom: 10px;
+	line-height: 50px;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
+.button_back_index{
+	background-color: #FF8888;
+	height: 50px;
+	color: white;
+	text-align:center;
+	margin-bottom: 10px;
+	line-height: 50px;
+	font-family: 'Microsoft YaHei';
+	opacity: 0.7;
+}
+.button_back_index:hover{
+	background-color: #FF8888;
+	height: 50px;
+	color: white;
+	text-align:center;
+	margin-bottom: 10px;
+	line-height: 50px;
+	font-family: 'Microsoft YaHei';
+	opacity: 1;
+}
